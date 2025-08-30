@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoa Jurídica</title>
+</head>
+<body bgcolor="#C2E0C2">
+    <center>
+        <table border="1"  width="600" bgcolor="#D9EBD9">
+            <tr>
+                <td align="center">
+                    <h2><font color="#333333">Cadastro de Pessoa Jurídica</font></h2>
+                </td>
+            </tr>
+        </table>
+        
+        <br>
+
+        <form action="#" method="POST">
+            <table  width="600">
+                <tr>
+                    <td><font size="+1">Razão Social:</font></td>
+                    <td colspan="3"><input type="text" id="razao_social" name="razao_social"  size="50"></td>
+                </tr>
+                <tr>
+                    <td><font size="+1">CNPJ:</font></td>
+                    <td><input type="text" id="cnpj" name="cnpj"  size="20"></td>
+                    <td><font size="+1">Inscrição Estadual:</font></td>
+                    <td><input type="text" id="inscricao_estadual" name="inscricao_estadual"  size="20"></td>
+                </tr>
+                <tr>
+                    <td><font size="+1">Responsável:</font></td>
+                    <td colspan="3"><input type="text" id="responsavel" name="responsavel"  size="50"></td>
+                </tr>
+                <tr>
+                    <td><font size="+1">Cargo:</font></td>
+                    <td>
+                        <select id="cargo" name="cargo">
+                            <option>Diretor</option>
+                            <option>Proprietário</option>
+                            <option>Gerente</option>
+                            <option>Outro</option>
+                        </select>
+                    </td>
+                    <td><font size="+1">Número de Funcionários:</font></td>
+                    <td><input type="number" id="num_funcionarios" name="num_funcionarios"  size="5"></td>
+                </tr>
+                <tr>
+                    <td><font size="+1">Departamento:</font></td>
+                    <td colspan="3"><input type="text" id="departamento" name="departamento" size="50"></td>
+                </tr>
+                <tr>
+                    <td><font size="+1">Telefone:</font></td>
+                    <td colspan="3"><input type="tel" id="telefone" name="telefone"  size="50"></td>
+                </tr>
+                <tr>
+                    <td><font size="+1">E-mail:</font></td>
+                    <td colspan="3"><input type="email" id="email" name="email"  size="50"></td>
+                </tr>
+                <tr>
+                    <td><font size="+1">Site:</font></td>
+                    <td colspan="3"><input type="url" id="site" name="site"  size="50"></td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">
+                        <input type="reset" value="Limpar" style="width:120px; height:40px; font-size:16px;">
+                        <input type="submit" value="Gravar" style="width:120px; height:40px; font-size:16px;">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
